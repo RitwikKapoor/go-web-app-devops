@@ -12,8 +12,8 @@ provider "digitalocean" {
 }
 
 resource "digitalocean_kubernetes_cluster" "my_k8s" {
-  name   = "my-k8s"
-  region = var.k8s_config.region
+  name    = "my-k8s"
+  region  = var.k8s_config.region
   version = "1.30.2-do.0"
 
   node_pool {
