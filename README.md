@@ -76,7 +76,7 @@ kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}
 kubectl get svc argocd-server -n argocd
 ```
 
--- Access the ArgoCD UI and set it up
+- Access the ArgoCD UI and set it up
 
 ### 5. Add the secret variables for the GitHub Actions in your repository
 
